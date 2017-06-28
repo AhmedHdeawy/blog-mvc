@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    # Prevent Indexes
+    Options +FollowSymLinks -Indexes
+
+    # Handle Fron Controller
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteRule ^(.*)$ index.php [QSA,L]
+
+
+</IfModule>
+
+
