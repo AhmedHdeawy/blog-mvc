@@ -71,8 +71,24 @@ class PostController extends Controller
      */
     public function tags($tags, $id)
     {
+        $posts = $this->load->model('Posts')->getPostWithTags($tags);
 
-    }
+        if(! $posts) {
+            //return $this->url->redirectTo('/404');
+            $data['posts'] = null;
+        }
+
+        $this->html->setTitle($tags);
+
+        $data['posts'] = $posts;
+
+        // Pagination
+        $data['pagination'] = $this->pagination->paginate();
+
+        $view =  $this->view->render('blog/tags', $data);
+        return $this->blogLayout->render($view);
+
+;    }
 
     /**
      * Add Comment for current Article

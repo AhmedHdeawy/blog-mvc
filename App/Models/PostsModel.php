@@ -128,6 +128,25 @@ class PostsModel  extends Model
                         ->fetchAll();
     }
 
+
+    /**
+     * Get  Post With Comments based on Search
+     * @param string $tags
+     * @return mixed
+     */
+    public function getPostWithTags($tags)
+    {
+        return $this->select('p.*', 'c.name AS `category`', 'u.first_name ', 'u.last_name')
+            ->select('(SELECT COUNT(co.id) FROM comments co WHERE co.post_id = p.id) AS total_comments')
+            ->from('posts p')
+            ->where('p.tags LIKE ? AND p.status = ?', "%" . $tags . "%", 'enabled')
+            ->join('LEFT JOIN categories c ON p.category_id = c.id')
+            ->join('LEFT JOIN users u ON p.user_id = u.id')
+            ->orderBy('p.id', 'DESC')
+            ->fetchAll();
+    }
+
+
     /**
      * Create New Post Record
      * @return void

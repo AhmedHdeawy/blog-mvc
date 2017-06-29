@@ -44,7 +44,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="<?php echo url('/'); ?>">Home <span class="sr-only">(current)</span></a></li>
                 <li><a href="<?php echo url('/contact-us'); ?>">Contact Us <?php //echo $user->email; ?></a></li>
                 <?php if(!$user){ ?>
                     <li>

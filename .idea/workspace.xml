@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a82d7e4-e9aa-4e50-91db-b701301b8f56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Views/blog/tags.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/Blog/HomeController.php" afterPath="$PROJECT_DIR$/App/Controllers/Blog/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/blog/search.php" afterPath="$PROJECT_DIR$/App/Views/blog/search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/Blog/PostController.php" afterPath="$PROJECT_DIR$/App/Controllers/Blog/PostController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Models/PostsModel.php" afterPath="$PROJECT_DIR$/App/Models/PostsModel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Views/blog/common/header.php" afterPath="$PROJECT_DIR$/App/Views/blog/common/header.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,42 +41,39 @@
       <file leaf-file-name="PostsModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/Models/PostsModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="127" column="37" lean-forward="true" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
+            <state relative-caret-position="140">
+              <caret line="133" column="26" lean-forward="false" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Views/blog/search.php">
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controllers/Blog/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="92" column="107" lean-forward="false" selection-start-line="92" selection-start-column="107" selection-end-line="92" selection-end-column="107" />
+            <state relative-caret-position="428">
+              <caret line="87" column="47" lean-forward="false" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Controllers/Blog/HomeController.php">
+      <file leaf-file-name="tags.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Views/blog/tags.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/System/Database.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Views/blog/common/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="280" column="53" lean-forward="false" selection-start-line="280" selection-start-column="53" selection-end-line="280" selection-end-column="53" />
-              <folding>
-                <marker date="1498739582912" expanded="true" signature="5038:5050" ph="DELETE FROM " />
-                <marker date="1498739582912" expanded="true" signature="8239:8275" ph="INSERT INTO ${$this-&gt;table}... " />
-              </folding>
+            <state relative-caret-position="312">
+              <caret line="46" column="67" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,7 +135,6 @@
         <option value="$PROJECT_DIR$/App/Views/blog/common/sidebar.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Blog/SearchController.php" />
         <option value="$PROJECT_DIR$/App/index.php" />
-        <option value="$PROJECT_DIR$/App/Controllers/Blog/PostController.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Blog/RegisterController.php" />
         <option value="$PROJECT_DIR$/public/blog/css/jssocials.css" />
         <option value="$PROJECT_DIR$/App/Views/blog/blogdetails.php" />
@@ -145,7 +142,6 @@
         <option value="$PROJECT_DIR$/App/Models/ContactModel.php" />
         <option value="$PROJECT_DIR$/App/Views/blog/contact-us.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Blog/ContactController.php" />
-        <option value="$PROJECT_DIR$/App/Views/blog/common/header.php" />
         <option value="$PROJECT_DIR$/App/Models/SettingsModel.php" />
         <option value="$PROJECT_DIR$/public/blog/css/style.css" />
         <option value="$PROJECT_DIR$/App/Controllers/Blog/Common/FooterController.php" />
@@ -157,8 +153,10 @@
         <option value="$PROJECT_DIR$/App/Views/admin/dashboard/home.php" />
         <option value="$PROJECT_DIR$/vendor/System/Database.php" />
         <option value="$PROJECT_DIR$/App/Controllers/Blog/HomeController.php" />
-        <option value="$PROJECT_DIR$/App/Models/PostsModel.php" />
         <option value="$PROJECT_DIR$/App/Views/blog/search.php" />
+        <option value="$PROJECT_DIR$/App/Models/PostsModel.php" />
+        <option value="$PROJECT_DIR$/App/Controllers/Blog/PostController.php" />
+        <option value="$PROJECT_DIR$/App/Views/blog/common/header.php" />
       </list>
     </option>
   </component>
@@ -273,6 +271,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="App" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -315,16 +339,16 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/App/Models" />
-      <recent name="$PROJECT_DIR$/App/Controllers/Blog" />
-      <recent name="$PROJECT_DIR$/App/Views/blog" />
-      <recent name="$PROJECT_DIR$/App/Controllers/Blog/Common" />
-      <recent name="$PROJECT_DIR$/public/blog/css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/App/Controllers/Blog" />
       <recent name="$PROJECT_DIR$/App/Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/App/Views/blog" />
+      <recent name="$PROJECT_DIR$/App/Models" />
+      <recent name="$PROJECT_DIR$/App/Controllers/Blog" />
+      <recent name="$PROJECT_DIR$/App/Controllers/Blog/Common" />
+      <recent name="$PROJECT_DIR$/public/blog/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -435,12 +459,12 @@
       <workItem from="1498655352344" duration="1879000" />
       <workItem from="1498658843440" duration="3775000" />
       <workItem from="1498679409442" duration="6396000" />
-      <workItem from="1498738994366" duration="885000" />
+      <workItem from="1498738994366" duration="2206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177982000" />
+    <option name="totallyTimeSpent" value="179303000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -452,7 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="732" extended-state="7" />
+    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -487,13 +511,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Views/admin/users/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/helpers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -560,13 +577,6 @@
     </entry>
     <entry file="file://$USER_HOME$/eCommerce/index.php" />
     <entry file="file://$USER_HOME$/eCommerce/classes/products.php" />
-    <entry file="file://$PROJECT_DIR$/App/Controllers/Blog/SearchController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Controllers/Blog/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -656,13 +666,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Views/blog/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="40" column="55" lean-forward="false" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -758,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Controllers/Blog/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1538">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/blog/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -830,18 +826,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/Models/PostsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="127" column="37" lean-forward="true" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App/Views/blog/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="92" column="107" lean-forward="false" selection-start-line="92" selection-start-column="107" selection-end-line="92" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Models/PostsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="133" column="26" lean-forward="false" selection-start-line="133" selection-start-column="26" selection-end-line="133" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Blog/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="33" column="48" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="33" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controllers/Blog/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="87" column="47" lean-forward="false" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/blog/tags.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Views/blog/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="46" column="67" lean-forward="false" selection-start-line="46" selection-start-column="67" selection-end-line="46" selection-end-column="67" />
           <folding />
         </state>
       </provider>
