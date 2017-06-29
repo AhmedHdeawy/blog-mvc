@@ -14,6 +14,7 @@ class HomeController extends Controller
 {
     public function index()
     {
+        
         $data['setting'] = $this->load->model('Settings')->get('Site_Name')->value;
 
         $this->html->setTitle($data['setting']);

@@ -90,7 +90,7 @@
     <?php } else{ ?>
 
         <div class="alert alert-danger">
-            <h3 class="text-center">No Posts In This Category</h3>
+            <h3 class="text-center">Cannot Find any Results for you Search, lease try again with Difference Words</h3>
         </div>
 
     <?php } ?>
