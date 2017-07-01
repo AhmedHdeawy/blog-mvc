@@ -50,7 +50,7 @@
 
 
 
-<script type="text/javascript" src="<?php echo assets('blog/js/jquery-1.12.0.min.js'); ?>"></script>
+<script type="text/javascript" src="<?php echo assets('blog/js/jquery-2.2.3.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo assets('blog/js/bootstrap.min.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo assets('blog/js/main.js'); ?>"></script>
 <script type="text/javascript" src="<?php echo assets('blog/js/jssocials.min.js'); ?>"></script>

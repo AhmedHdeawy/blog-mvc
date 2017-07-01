@@ -77,7 +77,7 @@
         <div class="modal-content">
 
             <div class="modal-body">
-                <button type="button" class="btn btn-default pull-right" data-dismiss="modal"><i class="fa fa-close"></i></button>
+                <button type="button" class="btn btn-default pull-right" data-dismiss="modal">&Chi;</button>
 
                 <div class="row">
 

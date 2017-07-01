@@ -61,7 +61,6 @@ class LoginController extends Controller
             $json['success'] = 'Welcome Back ' . $loginModel->user()->first_name;
 
             $json['redirect'] = $this->url->link('/admin');
-
             return json_encode($json);
 
         } else {

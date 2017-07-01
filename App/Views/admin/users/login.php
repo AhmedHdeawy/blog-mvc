@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Log in</title>
+  <title>AdminPanel | Log in</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -27,29 +27,27 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="../../index2.html"><b>Admin</b>LTE</a>
+    <a href="#"><b>Admin</b>Panel</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to start your session</p>
-
-
+    <p class="login-box-msg">Sign in to start your Control</p>
 
     <form action="<?php echo url('/admin/login/submit'); ?>" method="post" id="login-form">
 
         <!--  Errors Section      -->
-
-            <div id="login-result" style="font-weight: bold"> </div>
-
+      <div id="login-result" style="font-weight: bold"> </div>
 
       <div class="form-group has-feedback">
         <input type="email" name="email" class="form-control" placeholder="Email" required="required">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
+
       <div class="form-group has-feedback">
         <input type="password" name="password" class="form-control" placeholder="Password" required="required">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
+
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
@@ -64,13 +62,8 @@
         </div>
         <!-- /.col -->
       </div>
+
     </form>
-
-
-    <!-- /.social-auth-links -->
-
-    <a href="#">I forgot my password</a><br>
-    <a href="register.html" class="text-center">Register a new membership</a>
 
   </div>
   <!-- /.login-box-body -->
@@ -78,7 +71,7 @@
 <!-- /.login-box -->
 
 <!-- jQuery 2.2.0 -->
-<script src="<?php echo assets('admin/plugins/jQuery/jQuery-2.2.0.min.js') ?>"></script>
+<script src="<?php echo assets('admin/plugins/jQuery/jquery-2.2.3.min.js') ?>"></script>
 <!-- Bootstrap 3.3.6 -->
 <script src="<?php echo assets('admin/bootstrap/js/bootstrap.min.js'); ?>"></script>
 <!-- iCheck -->
@@ -135,6 +128,7 @@
 
                       loginResult.removeClass().addClass('alert alert-success').html(results.success);
                       if(results.redirect) {
+
                           window.location.href = results.redirect;
                       }
                   }

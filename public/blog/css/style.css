@@ -249,7 +249,17 @@ body {
   margin: 0
 }
 .modal .login-form .heading5 h4{
-  font-size: 20px
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  width: 100%;
+  color: #112946;
+  text-align: center;
+}
+.heading5 span {
+  color: #e01a22;
 }
 .modal .login-form .form-control{
   -webkit-appearance: none;
@@ -1062,3 +1072,11 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
 /*==========================================================================================
 ================================== Footer / End ===========================================
 */
+
+
+/*=================== Custom ======================*/
+
+.modal-body button{
+  background-color: #1E2024;
+  color: #fff;
+}
