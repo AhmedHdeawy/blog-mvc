@@ -36,7 +36,7 @@ class LoginModel extends Model
     public function isValidLogin($email, $password)
     {
         // Calling ( Where ) Function from Database Class through [ __call() ] Method in Model Class
-        $user = $this->where('email = ?', $email)->fetch($this->table);
+        $user = $this->where('email = ? AND user_group_id = ?', $email, 1)->fetch($this->table);
 
         // if Data is empty which means theres no Email fetched
         if(! $user) {
